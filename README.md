@@ -13,3 +13,7 @@ You can run the app with:
     ./gradlew npm_start
 
 Once it is running, you can access it in a browser at http://localhost:8080
+
+# To do
+
+Currently the build process requires manual configuration of jenkins and kubernetes and is hosted on servers that need to be turned on manually as well. The next steps is to migrate everything to a cloud provider and continue to develop and add features like monitoring, self-healing, auto-scaling, canary testing and ultimately make the process fully automated.
